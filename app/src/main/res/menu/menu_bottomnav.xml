@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_bottomnav_nowshowing"
+        android:title="Now Showing"
+        android:icon="@drawable/nowshowing"
+       app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_bottomnav_upcoming"
+        android:title="Upcoming"
+        android:icon="@drawable/upcoming"
+       app:showAsAction="ifRoom"
+        />
+
+</menu>
